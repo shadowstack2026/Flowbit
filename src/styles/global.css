@@ -120,19 +120,20 @@ img {
 .eyebrow {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-size: 13px;
+  gap: 12px;
+  font-size: 14px;
   font-weight: 500;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--accent);
+  letter-spacing: 0.02em;
+  color: var(--text-dim);
   margin-bottom: 28px;
 }
 .eyebrow::before {
   content: '';
-  width: 28px;
-  height: 1px;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
   background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
 }
 
 .h2 {
